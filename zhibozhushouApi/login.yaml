@@ -1,0 +1,8 @@
+url: /security-api/login
+method: post
+form: json
+headers:
+  content-type: application/json
+json:
+  messageCode: 123456
+  mobile: 13107700879

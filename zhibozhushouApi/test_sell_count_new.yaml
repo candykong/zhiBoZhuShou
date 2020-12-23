@@ -1,0 +1,10 @@
+url: /live-assistant/test/test-sell-count
+method: get
+form: json
+headers:
+  content-type: application/json
+  token: $token
+json:
+  activityGoodsId: 3425
+  sellCountNum: 1000
+  sellCountIncr: 10

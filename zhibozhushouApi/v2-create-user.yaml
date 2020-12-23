@@ -1,0 +1,15 @@
+url: /security-api/v2/create-user
+method: post
+form: json
+headers:
+  content-type: application/json
+  token: $token
+json:
+  deptId: 67
+  deptIdList:
+  - 67
+  email: ''
+  mobile: $mobile
+  roleIdList: []
+  status: 1
+  username: $username

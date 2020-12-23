@@ -1,0 +1,29 @@
+{
+    "$schema":"http://dev-live-assistant.zhiyitech.cn/live-assistant/v2_8/schedule/list/schema#",
+    "title":"排期列表",
+    "description":"some information about paiqi",
+    "type":"object",
+    "properties":{
+        "errCode": "string",
+        "errorDesc": "string",
+        "result": {
+          "type": "array",
+          "items": [
+            {"type": "int"},
+            {"type": "string"},
+            {"type": "int"},
+            {"type": "string"}
+          ]
+
+        },
+        "stackTrace": "object",
+        "success": "boolean"
+    },
+    "minProperties":1,
+    "maxProperties":5,
+    "required":[
+        "id",
+        "name",
+        "price"
+    ]
+}
